@@ -152,14 +152,16 @@ input {
     margin-left: auto;
 
 }
-
+.main13 button{
+    display: none;
+}
 .top p {
     font-size: 18px;
     color: #6c757d;
     text-align: center;
 }
 
-.bottom {
+.botton {
     position: relative;
     margin: 10px 5px;
     overflow: hidden;
@@ -986,7 +988,7 @@ footer a{
         font-size:13px
     }
 }
-@media(max-width:765px){
+@media(max-width:770px){
     .in1{
         display: block;
         margin-left:20%;
@@ -1055,6 +1057,9 @@ footer a{
         margin-left:25%;
         margin-top:50px;
         
+    }
+     .d1{
+        height:50vh;
     }
     .main12{
         flex-direction:column;
@@ -1147,5 +1152,52 @@ footer a{
     }
     .text-section{
         display:none;
+    }
+    .in1 input{
+        width: 200px;
+    }
+}
+@media(max-width:426px){
+  .in1 , .tent{
+    display: none;
+  }
+  .main13 button{
+        width:100px;
+        height: 40px;
+        background: red;
+        color: white;
+        font-family:apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display:inline;;
+      border-radius:33px;
+      border:2px solid white;
+      margin-left:25%;
+  }
+    .d1{
+        height:70vh;
+    }
+    nav span{
+        font-size:16px
+    }
+    nav button{
+        width:100px;
+        height:30px;
+        font-size:10px
+    }
+    .trey button{
+        width:70px;
+        height:50px;
+        font-size:10px;
+    }
+    .trey{
+        justify-content:space-between;
+    }
+}
+
+@media(max-width:260px){
+    .d1{
+        height:70vh;
+    }
+    .d1{
+        height:70vh;
     }
 }
